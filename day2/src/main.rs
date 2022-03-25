@@ -10,12 +10,12 @@ fn demo1() {
   // cannot change
   const A: i32 = 123;
   //  can Shadowing
-  let b:i64 = 123213;
-  let b = 1;
+  let _b:i64 = 123213;
+  let _b = 1;
 
   println!("value:{}", _a);
   println!("value2:{}", A);
-  println!("value3:{}", b);
+  println!("value3:{}", _b);
 }
 
 fn demo2() {
